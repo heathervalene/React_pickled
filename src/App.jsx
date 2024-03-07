@@ -20,6 +20,7 @@ const [recipes, setRecipes] = useState(recipesArray)
         <h1 className='header'>Pickled</h1>
         <Routes>
         <Route path='/' element={<RecipeList recipes={recipes} />} />
+        <Route path='/recipes/:index' element={<Recipe recipes={recipes} />}/>
         </Routes>
         </main>
         </div>
