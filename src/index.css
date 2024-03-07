@@ -3,33 +3,54 @@
 body {
   font-family: "Shadows Into Light", cursive;
   font-size: 25px;
+  background-color:#388e3c;
 }
 
 .header {
   text-align: center;
+  font-size: 100px;
 }
 
-.container {
+.card-title {
+  text-align: center;
+}
+
+.recipe-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: max-content;
  
 }
 
-.card {
-
+.recipe-card {
   margin: 10px;
-  width: 500px;
+  width: 400px;
 }
 
+.recipe-content {
+  display: flex;
+  flex-direction: column;
+}
 
 ol {
   list-style-type: none;
 }
 
 
-.card-image {
-  height: 150px;
-  width: 100px;
+.center-image{
   margin: auto;
-  
 
 }
+
+@media (max-width: 768px) {
+ .recipe-container {
+  flex-direction: column;
+  }
+ 
+ .recipe-card {
+    margin: 10px;
+    max-width: 90%;
+  }
+}
+

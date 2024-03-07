@@ -3,13 +3,13 @@
 
 const Recipes = ({ recipes }) => {
     return (
-      <div className='container'>
+      <div className='container recipe-container'>
         {recipes.map((recipe, index) => (
-          <div key={index} className='card'>
-            <div className="card-content green lighten-4">
+          <div key={index} className='card recipe-card green lighten-4'>
+            <div className="card-content  recipe-content">
             <span className="card-title">{recipe.title}</span>
             <div className="card-image">
-              <img src={recipe.imageUrl} className="responsive-img" alt={recipe.title} />
+              <img src={recipe.imageUrl} className="responsive-img centered-image" alt={recipe.title} />
             </div>
             <table className="striped">
             <thead>
