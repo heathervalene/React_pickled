@@ -7,9 +7,10 @@ function App() {
   const recipes = [
     { 
       title: 'Picked Red Onions',
+      imageUrl: 'https://i.imgur.com/O1YYFLU.jpeg',
       ingredients: [
        { name: 'Red onion' , measurements: '1 medium to large red onion'},
-       { name: 'Garlic', measurements: '2-3 clove who garlic cloves'},
+       { name: 'Garlic', measurements: '2-3 clove whole garlic cloves'},
        {name: 'Whole black pepper', measurements: '5-6 whole black peppers'},
        {name: 'White vinegar', measurements: '1 cup'},
        {name: 'Water', measurements: '1 cup'},
@@ -36,6 +37,7 @@ function App() {
     },
     { 
       title: 'Classic Dill Pickles',
+      imageUrl: 'https://i.imgur.com/nQqWME3.jpeg',
       ingredients: [
        { name: 'Kirby or Persion pickes' , measurements: '3-5 depending on size'},
        { name: 'Garlic', measurements: '5-6 garlic cloves, halved'},
@@ -74,7 +76,7 @@ function App() {
   return (
 
       <div>
-        <h1 className='header'>I'm Pickled!</h1>
+        <h1 className='header'>Pickled!</h1>
         <Recipes recipes={recipes} />
         </div>
       

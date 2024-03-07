@@ -8,6 +8,9 @@ const Recipes = ({ recipes }) => {
           <div key={index} className='card'>
             <div className="card-content">
             <span className="card-title">{recipe.title}</span>
+            <div className="card-image">
+              <img src={recipe.imageUrl} className="responsive-img" alt={recipe.title} />
+            </div>
             <table className="striped">
             <thead>
               <tr>

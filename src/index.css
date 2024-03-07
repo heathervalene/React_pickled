@@ -3,3 +3,17 @@
 .header {
   text-align: center;
 }
+
+
+ol {
+  list-style-type: none;
+}
+
+
+.card-image {
+  height: 150px;
+  width: 100px;
+  margin: auto;
+  
+
+}
