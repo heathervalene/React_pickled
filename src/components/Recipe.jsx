@@ -1,7 +1,7 @@
 
 
 
-const Recipes = ({ recipes }) => {
+const Recipe = ({ recipes }) => {
     return (
       <div className='container recipe-container'>
         {recipes.map((recipe, index) => (
@@ -41,4 +41,4 @@ const Recipes = ({ recipes }) => {
     );
   };
   
-  export default Recipes;
+  export default Recipe;
