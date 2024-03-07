@@ -6,7 +6,7 @@ const Recipes = ({ recipes }) => {
       <div className='container'>
         {recipes.map((recipe, index) => (
           <div key={index} className='card'>
-            <div className="card-content">
+            <div className="card-content green lighten-4">
             <span className="card-title">{recipe.title}</span>
             <div className="card-image">
               <img src={recipe.imageUrl} className="responsive-img" alt={recipe.title} />
