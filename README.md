@@ -8,6 +8,7 @@
 
 - React
 - Materialize CSS
+- Netlify
 
 
 

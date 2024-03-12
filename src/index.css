@@ -57,6 +57,9 @@ ol {
   }
 }
 
+
+/*Nav */
+
 .nav-wrapper {
   background-color: #81c784;
 }
@@ -64,5 +67,10 @@ ol {
 .nav-item{
   margin-right: 30px;
   font-size: 20px;
+}
+
+.brand-logo {
+  height: 50px;
+  margin: 10px;
 }
 
