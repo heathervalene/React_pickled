@@ -2,6 +2,10 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
+
+
+emailjs.init('JaibVNv_h8LR8WUc4')
+
 const AddRecipe = () => {
     const navigate = useNavigate();
   

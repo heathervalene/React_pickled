@@ -4,7 +4,7 @@ const RecipeList = ({ recipes }) => {
     return (
       <div className='container recipe-container'>
         {recipes.map((recipe, index) => (
-          <div key={index} className='card recipe-card green lighten-4'>
+          <div key={index} className='card recipe-card green lighten-2'>
             <div className="card-content recipe-content">
               <span className="card-title">{recipe.title}</span>
               <Link to={`/recipes/${index}`}>
