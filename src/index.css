@@ -41,11 +41,7 @@ ol {
 }
 
 
-.center-image{
-  margin: auto;
-  height: 300px;
 
-}
 
 @media (max-width: 768px) {
  .recipe-container {
@@ -79,6 +75,6 @@ ol {
   margin: 5px;
 }
 
-/* Form */
+
 
 

@@ -14,8 +14,8 @@ const Recipe = ({ recipes }) => {
 
   return (
     <div className='container'>
-      <div className='card recipe-card green lighten-2'>
-        <div className="card-content  recipe-content">
+      <div className='card green lighten-2'>
+        <div className="card-content detail-card-content">
           <span className="card-title">{selectedRecipe.title}</span>
           <div className="card-image">
             <img src={selectedRecipe.imageUrl} className="responsive-img centered-image" alt={selectedRecipe.title} />

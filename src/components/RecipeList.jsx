@@ -9,7 +9,7 @@ const RecipeList = ({ recipes }) => {
               <span className="card-title">{recipe.title}</span>
               <Link to={`/recipes/${index}`}>
               <div className="card-image">
-                <img src={recipe.imageUrl} className="responsive-img centered-image" alt={recipe.title} />
+                <img src={recipe.imageUrl} className="responsive-img centered-image recipe-image" alt={recipe.title} style={{ width: '100%', height: '400px' }}/>
               </div>
               </Link>
             </div>
