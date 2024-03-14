@@ -13,7 +13,8 @@ const AddRecipe = () => {
     const [ingredients, setIngredients] = useState("");
     const [instructions, setInstructions] = useState("");
     const [email, setEmail] = useState("");
-  
+
+    
     const handleSubmit = (e) => {
       e.preventDefault();
   
@@ -41,18 +42,19 @@ const AddRecipe = () => {
   
     return (
       <div className="container">
-        <h4>Submit a Recipe</h4>
-        <form className="col s12" onSubmit={handleSubmit}>
+        <h4 className="center-align">Submit a Recipe</h4>
+        <form className="col s12 " onSubmit={handleSubmit}>
           <div className="row">
-            <div className="input-field col s12">
+            <div className="input-field col s12 ">
               <input
                 type="text"
+                placeholder="Recipe Title"
                 id="title"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 required
               />
-              <label htmlFor="title">Recipe Title</label>
+            
             </div>
           </div>
   
@@ -60,12 +62,12 @@ const AddRecipe = () => {
             <div className="input-field col s12">
               <textarea
                 id="ingredients"
+                placeholder="Enter Ingredients & Measurements"
                 className="materialize-textarea"
                 value={ingredients}
                 onChange={(e) => setIngredients(e.target.value)}
                 required
               ></textarea>
-              <label htmlFor="ingredients">Ingredients</label>
             </div>
           </div>
   
@@ -73,12 +75,12 @@ const AddRecipe = () => {
             <div className="input-field col s12">
               <textarea
                 id="instructions"
+                placeholder="Enter Steps to Complete Recipe"
                 className="materialize-textarea"
                 value={instructions}
                 onChange={(e) => setInstructions(e.target.value)}
                 required
               ></textarea>
-              <label htmlFor="instructions">Steps to Complete Recipe</label>
             </div>
           </div>
   
@@ -87,17 +89,17 @@ const AddRecipe = () => {
               <input
                 type="email"
                 id="email"
+                placeholder="Your Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
-              <label htmlFor="email">Your Email</label>
             </div>
           </div>
   
           <div className="row">
             <div className="input-field col s12">
-              <button className="btn waves-effect waves-light" type="submit">
+              <button className="btn waves-effect waves-light green lighten-2" type="submit">
                 Submit Recipe
               </button>
             </div>

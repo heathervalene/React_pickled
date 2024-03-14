@@ -13,8 +13,8 @@ const Recipe = ({ recipes }) => {
   }
 
   return (
-    <div className='container recipe-container'>
-      <div className='card recipe-card green lighten-4'>
+    <div className='container'>
+      <div className='card recipe-card green lighten-2'>
         <div className="card-content  recipe-content">
           <span className="card-title">{selectedRecipe.title}</span>
           <div className="card-image">
