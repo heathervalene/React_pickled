@@ -7,6 +7,7 @@
 #### **_Technologies used_**
 
 - React
+- Emailjs
 - Materialize CSS
 - Netlify
 

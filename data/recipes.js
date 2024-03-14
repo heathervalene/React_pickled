@@ -64,7 +64,7 @@ const recipesArray = [
       ]
     },
     {
-      title: 'Bread & Better Pickles',
+      title: 'Bread & Butter Pickles',
       imageUrl: 'https://i.imgur.com/04qLGUL.jpeg',
       ingredients: [
         { name: 'Kirby or Persion cucumbers' , measurements: '3-5 depending on size'},
