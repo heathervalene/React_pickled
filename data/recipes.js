@@ -96,6 +96,35 @@ const recipesArray = [
           text: 'Let stand room temperature for 1 hour, refrigerate for 24 hours and enjoy!'
         }
       ]
+    },
+    {
+      title: 'Korean style pickled Radishes',
+      imageUrl: 'https://i.imgur.com/04qLGUL.jpeg',
+      ingredients: [
+        { name: 'bundle of radishes' , measurements: '5-6 depending on size'},
+        { name: 'Granulated white sugar', measurements: '1 cup'},
+        { name: 'White vinegar', measurements: '1 cup'},
+        { name: 'water' , measurements: '1 cup'}
+   
+      ],
+      instructions: [
+        {
+          step: '1',
+          text: 'Slice the radishes into thin slices'
+        },
+        {
+          step: '2',
+          text: 'Boil all liquids until the sugar is dissolved'
+        },
+        {
+          step: '3',
+          text: 'Pour hot vingar mixture over the radishes in the jar'
+        },
+        {
+          step: '4',
+          text: 'Let stand room temperature for 1 hour, refrigerate for 24 hours and enjoy!'
+        }
+      ]
     }
   ]
 
