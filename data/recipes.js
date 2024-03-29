@@ -99,7 +99,7 @@ const recipesArray = [
     },
     {
       title: 'Korean style pickled Radishes',
-      imageUrl: 'https://i.imgur.com/04qLGUL.jpeg',
+      imageUrl: 'https://i.imgur.com/hCBdBrh.jpeg',
       ingredients: [
         { name: 'bundle of radishes' , measurements: '5-6 depending on size'},
         { name: 'Granulated white sugar', measurements: '1 cup'},
